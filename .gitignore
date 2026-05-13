@@ -1,0 +1,14 @@
+# Raw model responses — kept local only, not pushed to GitHub
+responses/
+
+# Excel working file — use CSV exports for version control instead
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+Thumbs.db
