@@ -690,8 +690,8 @@ function renderSummary(rows) {
     document.getElementById('track-fill').style.width = pct + '%';
   }, 100);
   const dates = rows.map(r=>r.date_tested).filter(Boolean);
-  document.getElementById('last-updated').textContent =
-    dates.length ? `Last scored: ${dates[dates.length-1]}` : 'Seed data only';
+  //document.getElementById('last-updated').textContent =
+  //  dates.length ? `Last scored: ${dates[dates.length-1]}` : 'Seed data only';
 }
 
 function renderChips(rows) {
